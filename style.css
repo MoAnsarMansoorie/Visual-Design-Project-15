@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body-container{
+    background-color: black;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 5rem;
+}
+.nav-item{
+    color: antiquewhite;
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left-section img{
+    width: 600px;
+    height: 600px;
+}
+
+.hero-right-section{
+    
+    margin-left: 7rem;
+}
+
+.arthur{
+    color: red;
+}
+
+.visual{
+    color: antiquewhite;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: .5rem;
+}
+
+.lorem{
+    color: antiquewhite;
+    margin-top: .5rem;
+}
+
+.hero-btn{
+    background-color: red;
+    color: antiquewhite;
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.showcase-container {
+    background: #35353532;
+    margin-top: 5rem;
+
+  }
+  
+
+  
+.top-showcase {
+
+    display: flex;
+    margin-left: 5rem;
+    
+    gap: 15rem;
+    margin-top: 2rem;
+  }
+  
+  .cards {
+    background-color: #212121;
+    padding: 2rem;
+    
+  }
+
+  .red-cards{
+    background-color: red;
+    padding: 2rem;
+  }
+
+  .show-title{
+    color: antiquewhite;
+  }
+  
+
+.show-desc{
+    color: antiquewhite;
+    margin-top: .5rem;
+}
+
+
+  .know-more{
+    color: red;
+    margin-top: .5rem;
+  }
+
+.white-know-more{
+    color: antiquewhite;
+    margin-top: .5rem;
+}
+
+.bottom-showcase{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-item{
+    margin-left: 10rem;
+    background-color: #212121;
+    padding: 2rem;
+    
+}
+
+.first-item-count{
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.first-item-desc{
+    color: antiquewhite;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.bottom-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bottom-card{
+    background-color: #212121;
+    padding: 1rem;
+    margin: 2.5rem;
+    
+
+}
+
+
+.count{
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.count-desc{
+    color: antiquewhite;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.feature-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.writing{
+    color: antiquewhite;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+.view-all{
+    margin-right: 5rem;
+    padding: 1.5rem;
+    color: antiquewhite;
+    background-color: red;
+}
+
+.project-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10rem;
+    margin-top: 3rem;
+    
+}
+
+.image-card{
+    background-color: #212121;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.project-title{
+    color: antiquewhite;
+    margin-top: 1rem;
+}
+
+.project-know-more{
+    color:red;
+    
+}
+
+.work-container{
+    background-color: #212121;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+.work-title{
+    color: antiquewhite;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 2.5rem;
+    margin-left: 1.5rem;
+}
+
+.work-desc{
+    color: antiquewhite;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+
+.work-btn{
+    margin-right: 5rem;
+    padding: 1.2rem;
+    background-color: red;
+    color: antiquewhite;
+}
+
+
+.bottom-nav-container{
+    background-color:black;
+    color: antiquewhite;
+    
+}
+
+.bottom-nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 2.5rem;
+    
+}
+
+li{
+    list-style: none;
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+}
+
+.socials{
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+}
+
+.social{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
